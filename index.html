@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Ma Liste de Tâche</h1>
+
+        <div class="form-group">
+            <input class="form-control" id="tache" type="text" placeholder="Ajouter une tâche">
+            <button onclick="addTache()" type="button" class="btn btn-dark">Ajouter</button>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label mt-4">Filtrer par :</label>
+            <select class="form-select filtre" id="filtre" name="filtre">
+                <option value="all">Toutes</option>
+                <option value="finish">Terminées</option>
+                <option value="actif">Actives</option>
+            </select>
+        </div>
+
+        <div class="form-group" id="listTache">
+
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

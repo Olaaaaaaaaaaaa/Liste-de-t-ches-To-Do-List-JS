@@ -1,0 +1,9 @@
+.active{
+    text-decoration: none;
+}
+.finish{
+    text-decoration: line-through;
+}
+.hidden{
+    visibility: hidden;
+}
